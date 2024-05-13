@@ -1,0 +1,9 @@
+.FragmentContainer{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-self: start;
+    padding: 10vw;
+}

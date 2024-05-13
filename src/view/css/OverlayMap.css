@@ -1,0 +1,47 @@
+.overlay {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--accent-color)
+}
+
+.overlay-content {
+    background-color: white;
+    gap: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.saveButton {
+    background-color: var(--accent-color); /* Зеленый цвет */
+    border: none;
+    color: white; /* Белый цвет текста */
+    padding: 15px 32px; /* Размеры внутренних отступов */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px; /* Скругленные углы */
+}
